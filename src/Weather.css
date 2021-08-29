@@ -1,0 +1,69 @@
+.Weather h1,
+h2,
+h3,
+h4 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: bold;
+}
+
+.Weather h1 {
+  font-size: 25px;
+  color: #db7093;
+}
+
+.Weather h2 {
+  color: #20b2aa;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.Weather h3 {
+  color: #20b2aa;
+  font-size: 25px;
+}
+
+.Weather h4 {
+  padding: 15px;
+  font-size: 25px;
+  color: #20b2aa;
+  margin-left: -14px;
+  font-weight: bold;
+}
+
+footer {
+  color: #20b2aa;
+  font-size: 15px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  color: #db7093;
+  font-family: "Alegreya Sans", sans-serif;
+  list-style: none;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+.Weather .container {
+  opacity: 1;
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 30px;
+  border-style: solid;
+}
+
+.Weather .btn {
+  background-color: #20b2aa;
+  border: 1px solid black;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
