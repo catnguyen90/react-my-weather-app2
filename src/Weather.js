@@ -14,13 +14,13 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
-      icon: "http://openweathermap.org/img/wn/${response.data.weather[0]icon@2x.png",
+      icon: "https://openweathermap.org/img/wn/${response.data.weather[0]icon@2x.png",
       date: new Date(response.data.dt * 1000),
     });
   }
 
   function search() {
-    const apiKey = "841f4173fd81916cf9b0019ffbaf6e87";
+    const apiKey = "c89d64ac3bb22fdb6863197f83e5aa5f";
     let unit = "imperial";
     let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${unit}`;
     axios.get(apiUrl).then(handleResponse);
