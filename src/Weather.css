@@ -1,9 +1,11 @@
-.Weather {
+.Weather .container {
   opacity: 1;
   padding: 30px;
   margin: 40px auto;
   border-radius: 30px;
   border-style: solid;
+  background-image: url("./weather-app-background.jpg");
+  background-size: cover;
 }
 
 .Weather h1,
