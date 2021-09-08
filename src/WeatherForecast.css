@@ -1,3 +1,18 @@
 .WeatherForecast {
   text-align: center;
+  color: #20b2aa;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.WeatherForecast-day {
+  font-size: 23px;
+}
+
+.WeatherForecast-temperatures {
+  font-size: 16px;
+}
+
+.WeatherForecast-temperature-min {
+  opacity: 0.8;
+  margin-left: 5px;
 }
