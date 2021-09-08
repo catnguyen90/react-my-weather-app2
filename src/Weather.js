@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 import "./Weather.css";
 
@@ -60,7 +61,8 @@ export default function Weather(props) {
             </div>
           </form>
           <WeatherInfo data={weatherData} />
-          <footer>
+          <WeatherForecast />
+          <footer className="mt-3">
             This project was coded by{" "}
             <a
               href="https://vibrant-goldberg-47672a.netlify.app"

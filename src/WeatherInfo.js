@@ -23,7 +23,7 @@ export default function WeatherInfo(props) {
           <h2 className="float-left mt-3">{props.data.description}</h2>
           <div class="d-flex">
             <div className="float-left">
-              <WeatherIcon code={props.data.icon} />
+              <WeatherIcon code={props.data.icon} size={52} />
             </div>
             <div className="float-left">
               <WeatherTemperature fahrenheit={props.data.temperature} />
